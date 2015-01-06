@@ -17,3 +17,10 @@ C:\Users\li\Desktop\NikolasHelper\NikolasHelper\bin\Debug\Newtonsoft.Json.dll
 C:\Users\li\Desktop\NikolasHelper\NikolasHelper\bin\Debug\R2.Disaster.CoreEntities.dll
 C:\Users\li\Desktop\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.dll
 C:\Users\li\Desktop\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.pdb
+E:\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\NikolasHelper.dll
+E:\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\NikolasHelper.pdb
+E:\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\Newtonsoft.Json.dll
+E:\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\R2.Disaster.CoreEntities.dll
+E:\loadDataTool\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.csprojResolveAssemblyReference.cache
+E:\loadDataTool\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.dll
+E:\loadDataTool\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.pdb

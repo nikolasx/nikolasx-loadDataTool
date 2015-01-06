@@ -43,7 +43,7 @@ namespace NikolasHelper.WebAPI
 
             string queryResult = Post.SendPost(queryPreUrl);
             List<PrePlan> prePlan = JsonConvert.DeserializeObject<List<PrePlan>>(queryResult);
-            if (prePlan != null)
+            if (prePlan.Count != 0)
             {
                 throw new Exception(@"该防灾预案点已存在");
             }
@@ -97,8 +97,8 @@ namespace NikolasHelper.WebAPI
 
 
             string queryResult = Post.SendPost(queryCardUrl);
-            List<AvoidRiskCard> prePlan = JsonConvert.DeserializeObject<List<AvoidRiskCard>>(queryResult);
-            if (prePlan != null)
+            List<AvoidRiskCard> cards = JsonConvert.DeserializeObject<List<AvoidRiskCard>>(queryResult);
+            if (cards.Count != 0)
             {
                 throw new Exception(@"该避灾明白卡点已存在");
             }
@@ -109,8 +109,8 @@ namespace NikolasHelper.WebAPI
             if (queryComp != null)
             {
                 card.PhyGeoDisasterId = queryComp[0].PhyGeoDisasterId;
-                string carStr = JsonConvert.SerializeObject(card);
-                Post.SendPost(insertPreUrl, carStr);
+                string cardStr = JsonConvert.SerializeObject(card);
+                Post.SendPost(insertPreUrl, cardStr);
             }
             else
             {
@@ -153,7 +153,7 @@ namespace NikolasHelper.WebAPI
 
             string queryResult = Post.SendPost(queryCardUrl);
             List<AvoidRiskCard> prePlan = JsonConvert.DeserializeObject<List<AvoidRiskCard>>(queryResult);
-            if (prePlan != null)
+            if (prePlan.Count != 0)
             {
                 throw new Exception(@"该工作明白卡已存在");
             }

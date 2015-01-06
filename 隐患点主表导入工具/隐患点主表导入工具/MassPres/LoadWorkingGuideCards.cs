@@ -55,7 +55,7 @@ namespace 隐患点主表导入工具.MassPres
             card.野外编号 = row["野外编号"].ToString();
             card.统一编号 = row["统一编号"].ToString();
             card.灾害位置 = row["灾害位置"].ToString();
-            card.类型及规模 = row["统一编号"].ToString();
+            card.类型及规模 = row["类型及规模"].ToString();
             card.诱发因素 = row["诱发因素"].ToString();
             card.威胁对象 = row["威胁对象"].ToString();
             card.监测负责人 = row["监测负责人"].ToString();
@@ -75,7 +75,7 @@ namespace 隐患点主表导入工具.MassPres
             card.医疗救护值班电话 = row["医疗救护值班电话"].ToString();
             card.本卡发放单位 = row["本卡发放单位"].ToString();
             card.本卡发放单位联系电话 = row["本卡发放单位联系电话"].ToString();
-            //card.发放日期 = row["统一编号"].ToString();
+            //card.发放日期 = row["发放日期"].ToString();
             card.持卡单位或个人 = row["持卡单位或个人"].ToString();
             card.持卡单位或个人联系电话 = row["持卡单位或个人联系电话"].ToString();
             //card.持卡日期 = row["统一编号"].ToString();

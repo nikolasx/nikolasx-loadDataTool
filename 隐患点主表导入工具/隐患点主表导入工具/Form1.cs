@@ -125,8 +125,12 @@ namespace 隐患点主表导入工具
                         loadResult = loadPrePlan.InsertData(fileRoad);
                         break;
                     case "工作明白卡":
+                        LoadWorkingGuideCards loadCards=new LoadWorkingGuideCards();
+                        loadResult = loadCards.InsertData(fileRoad);
                         break;
                     case "避险明白卡":
+                        LoadAvoidRiskCards loadAvoid=new LoadAvoidRiskCards();
+                        loadResult = loadAvoid.InsertData(fileRoad);
                         break;
                 }
                 File.AppendAllText(@"e:\loadresult.txt", loadResult);
