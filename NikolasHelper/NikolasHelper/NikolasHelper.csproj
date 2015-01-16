@@ -55,15 +55,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQL\SqlHelper.cs" />
     <Compile Include="Util\ConvertHelper.cs" />
-    <Compile Include="WebAPI\ComprehensiveService.cs" />
-    <Compile Include="WebAPI\EmergencySurveyReportService.cs" />
-    <Compile Include="WebAPI\ExpressionService.cs" />
-    <Compile Include="WebAPI\MineRecoveryService.cs" />
-    <Compile Include="WebAPI\MonthlyReportService.cs" />
-    <Compile Include="WebAPI\PhyGeoDisasterService.cs" />
-    <Compile Include="WebAPI\PrePlanService.cs" />
-    <Compile Include="WebAPI\PreventionPlanningService.cs" />
-    <Compile Include="WebAPI\RelocationService.cs" />
+    <Compile Include="WebAPI\FiveScale\ComprehensiveFSService.cs" />
+    <Compile Include="WebAPI\FiveScale\PrePlanFSService.cs" />
+    <Compile Include="WebAPI\GeoDisaster\ComprehensiveService.cs" />
+    <Compile Include="WebAPI\GeoDisaster\EmergencySurveyReportService.cs" />
+    <Compile Include="WebAPI\GeoDisaster\ExpressionService.cs" />
+    <Compile Include="WebAPI\GeoDisaster\MineRecoveryService.cs" />
+    <Compile Include="WebAPI\GeoDisaster\MonthlyReportService.cs" />
+    <Compile Include="WebAPI\GeoDisaster\PhyGeoDisasterService.cs" />
+    <Compile Include="WebAPI\GeoDisaster\PrePlanService.cs" />
+    <Compile Include="WebAPI\GeoDisaster\PreventionPlanningService.cs" />
+    <Compile Include="WebAPI\GeoDisaster\RelocationService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="packets\" />

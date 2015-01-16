@@ -16,7 +16,7 @@ namespace 隐患点主表导入工具
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Tools());
         }
     }
 }

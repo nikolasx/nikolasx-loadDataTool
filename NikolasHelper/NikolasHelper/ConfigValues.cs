@@ -10,6 +10,6 @@ namespace NikolasHelper
         /// <summary>
         /// WebApi发布的地址
         /// </summary>
-        public const string WebApiUrl = "http://127.0.0.1/WebApi/";
+        public const string WebApiUrl = "http://192.168.83.66/WebApi/";
     }
 }

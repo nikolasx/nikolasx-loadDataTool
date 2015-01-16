@@ -24,3 +24,17 @@ E:\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\R2.Disaster.CoreEntities.d
 E:\loadDataTool\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.csprojResolveAssemblyReference.cache
 E:\loadDataTool\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.dll
 E:\loadDataTool\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.pdb
+G:\WORK FILES\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\NikolasHelper.dll
+G:\WORK FILES\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\NikolasHelper.pdb
+G:\WORK FILES\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\Newtonsoft.Json.dll
+G:\WORK FILES\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\R2.Disaster.CoreEntities.dll
+G:\WORK FILES\loadDataTool\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.csprojResolveAssemblyReference.cache
+G:\WORK FILES\loadDataTool\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.dll
+G:\WORK FILES\loadDataTool\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.pdb
+C:\Users\lixiong1\Desktop\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\NikolasHelper.dll
+C:\Users\lixiong1\Desktop\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\NikolasHelper.pdb
+C:\Users\lixiong1\Desktop\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lixiong1\Desktop\loadDataTool\NikolasHelper\NikolasHelper\bin\Debug\R2.Disaster.CoreEntities.dll
+C:\Users\lixiong1\Desktop\loadDataTool\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.dll
+C:\Users\lixiong1\Desktop\loadDataTool\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.pdb
+C:\Users\lixiong1\Desktop\loadDataTool\NikolasHelper\NikolasHelper\obj\Debug\NikolasHelper.csprojResolveAssemblyReference.cache

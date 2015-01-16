@@ -95,9 +95,26 @@ namespace NikolasHelper.Util
         }
 
 
+        public static bool GetBooleanByStr(string str)
+        {
+            bool result;
+            if (!bool.TryParse(str, out result))
+            {
+                result = false;
+            }
+            return result;
+        }
 
 
-
+        public static float GetFloatValutFromStr(string str)
+        {
+            float result;
+            if (!float.TryParse(str, out result))
+            {
+                result = 0.0f;
+            }
+            return result;
+        }
 
 
         /// <summary>

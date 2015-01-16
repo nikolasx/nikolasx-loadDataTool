@@ -59,50 +59,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Investigation\LoadComprehensive.cs" />
-    <Compile Include="Investigation\LoadDebrisFlow.cs" />
-    <Compile Include="Investigation\LoadLandCollapse.cs" />
-    <Compile Include="Investigation\LoadLandFracture.cs" />
-    <Compile Include="Investigation\LoadLandSlide.cs" />
-    <Compile Include="Investigation\LoadLandSlip.cs" />
-    <Compile Include="Investigation\LoadLandSubsidence.cs" />
-    <Compile Include="Investigation\LoadSlope.cs" />
-    <Compile Include="MassPres\LoadAvoidRiskCards.cs" />
-    <Compile Include="MassPres\LoadEmergencySurvey.cs" />
-    <Compile Include="MassPres\LoadMonthlyReport.cs" />
-    <Compile Include="MassPres\LoadPrePlan.cs" />
-    <Compile Include="MassPres\LoadPreventionPlanning.cs" />
-    <Compile Include="MassPres\LoadWorkingGuideCards.cs" />
+    <Compile Include="FiveScale\Investigation\LoadComprehensiveFS.cs" />
+    <Compile Include="FiveScale\Investigation\LoadDebrisFlowFS.cs" />
+    <Compile Include="FiveScale\Investigation\LoadLandCollapseFS.cs" />
+    <Compile Include="FiveScale\Investigation\LoadLandFractureFS.cs" />
+    <Compile Include="FiveScale\Investigation\LoadLandSlideFS.cs" />
+    <Compile Include="FiveScale\Investigation\LoadLandSlipFS.cs" />
+    <Compile Include="FiveScale\Investigation\LoadLandSubsidenceFS.cs" />
+    <Compile Include="FiveScale\Investigation\LoadSlopeFS.cs" />
+    <Compile Include="FiveScale\MassPres\LoadAvoidRiskCardFS.cs" />
+    <Compile Include="FiveScale\MassPres\LoadPrePlanFS.cs" />
+    <Compile Include="FiveScale\MassPres\LoadWorkingGuideCardFS.cs" />
+    <Compile Include="GeoDisaster\Investigation\LoadComprehensive.cs" />
+    <Compile Include="GeoDisaster\Investigation\LoadDebrisFlow.cs" />
+    <Compile Include="GeoDisaster\Investigation\LoadLandCollapse.cs" />
+    <Compile Include="GeoDisaster\Investigation\LoadLandFracture.cs" />
+    <Compile Include="GeoDisaster\Investigation\LoadLandSlide.cs" />
+    <Compile Include="GeoDisaster\Investigation\LoadLandSlip.cs" />
+    <Compile Include="GeoDisaster\Investigation\LoadLandSubsidence.cs" />
+    <Compile Include="GeoDisaster\Investigation\LoadSlope.cs" />
+    <Compile Include="LoadXinjiangData.cs" />
+    <Compile Include="GeoDisaster\MassPres\LoadAvoidRiskCards.cs" />
+    <Compile Include="GeoDisaster\MassPres\LoadEmergencySurvey.cs" />
+    <Compile Include="GeoDisaster\MassPres\LoadMonthlyReport.cs" />
+    <Compile Include="GeoDisaster\MassPres\LoadPrePlan.cs" />
+    <Compile Include="GeoDisaster\MassPres\LoadPreventionPlanning.cs" />
+    <Compile Include="GeoDisaster\MassPres\LoadWorkingGuideCards.cs" />
     <Compile Include="MineRecovery\LoadMineArchive.cs" />
     <Compile Include="MineRecovery\LoadMineEnvironmentSurvey.cs" />
     <Compile Include="MineRecovery\LoadMineRemoteSensingCard.cs" />
-    <Compile Include="PotentialThreats\LoadThreat.cs" />
+    <Compile Include="GeoDisaster\PotentialThreats\LoadThreat.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Relocation\LoadRelocationComprehensive.cs" />
-    <Compile Include="Relocation\LoadRelocationDebrisFlow.cs" />
-    <Compile Include="Relocation\LoadRelocationDebrisFlowCheck.cs" />
-    <Compile Include="Relocation\LoadRelocationLandCollapse.cs" />
-    <Compile Include="Relocation\LoadRelocationLandCollapseCheck.cs" />
-    <Compile Include="Relocation\LoadRelocationLandFracture.cs" />
-    <Compile Include="Relocation\LoadRelocationLandSlide.cs" />
-    <Compile Include="Relocation\LoadRelocationLandSlideCheck.cs" />
-    <Compile Include="Relocation\LoadRelocationLandSlip.cs" />
-    <Compile Include="Relocation\LoadRelocationLandSlipCheck.cs" />
-    <Compile Include="Relocation\LoadRelocationLandSubsidence.cs" />
-    <Compile Include="Relocation\LoadRelocationPlaceEvaluation.cs" />
-    <Compile Include="Relocation\LoadRelocationSlope.cs" />
-    <Compile Include="Relocation\LoadRelocationSlopeCheck.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationComprehensive.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationDebrisFlow.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationDebrisFlowCheck.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationLandCollapse.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationLandCollapseCheck.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationLandFracture.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationLandSlide.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationLandSlideCheck.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationLandSlip.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationLandSlipCheck.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationLandSubsidence.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationPlaceEvaluation.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationSlope.cs" />
+    <Compile Include="GeoDisaster\Relocation\LoadRelocationSlopeCheck.cs" />
+    <Compile Include="Tools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools.Designer.cs">
+      <DependentUpon>Tools.cs</DependentUpon>
+    </Compile>
     <Compile Include="Util\UtilMethod.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -112,6 +121,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Tools.resx">
+      <DependentUpon>Tools.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -131,7 +143,9 @@
       <Name>NikolasHelper</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="obj\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
