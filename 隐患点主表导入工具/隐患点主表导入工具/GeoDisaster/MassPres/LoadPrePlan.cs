@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NikolasHelper.GIS;
 using NikolasHelper.Office;
 using NikolasHelper.Util;
 using NikolasHelper.WebAPI;
@@ -57,8 +58,8 @@ namespace 隐患点主表导入工具.MassPres
             //plan.室内编号 = row["室内编号"].ToString();
             plan.X坐标 = ConvertHelper.GetDoubleValueFromStr(row["X坐标"].ToString());
             plan.Y坐标 = ConvertHelper.GetDoubleValueFromStr(row["Y坐标"].ToString());
-            plan.经度 = row["经度"].ToString();
-            plan.纬度 = row["纬度"].ToString();
+            plan.经度 = LonLatHelper.ConvertToDegreeStyleFromString(row["经度"].ToString());
+            plan.纬度 = LonLatHelper.ConvertToDegreeStyleFromString(row["纬度"].ToString());
             plan.隐患点类型 = ConvertHelper.GetEnumGeoDisasterByStr(row["隐患点类型"].ToString());
             plan.规模等级 = row["规模等级"].ToString();
             plan.威胁人口 = ConvertHelper.GetIntValueByStr(row["威胁人口"].ToString());

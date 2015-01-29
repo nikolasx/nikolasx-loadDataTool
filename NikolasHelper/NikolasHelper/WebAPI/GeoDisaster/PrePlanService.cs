@@ -66,8 +66,8 @@ namespace NikolasHelper.WebAPI
                 phy.Name = pre.名称;
                 phy.Location = pre.地理位置;
                 phy.DisasterType = pre.隐患点类型;
-                phy.Lon = LonLatHelper.ConvertToDegreeStyleFromString(pre.经度);
-                phy.Lat = LonLatHelper.ConvertToDegreeStyleFromString(pre.纬度);
+                phy.Lon = pre.经度;
+                phy.Lat = pre.纬度;
 
                 List<PrePlan> list = new List<PrePlan>();
                 list.Add(pre);

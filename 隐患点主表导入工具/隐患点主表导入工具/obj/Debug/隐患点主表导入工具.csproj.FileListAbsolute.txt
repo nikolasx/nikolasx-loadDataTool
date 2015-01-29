@@ -67,7 +67,6 @@ E:\loadDataTool\隐患点主表导入工具\隐患点主表导入工具\bin\Debu
 E:\loadDataTool\隐患点主表导入工具\隐患点主表导入工具\bin\Debug\NikolasHelper.pdb
 E:\loadDataTool\隐患点主表导入工具\隐患点主表导入工具\bin\Debug\AutoMapper.xml
 E:\loadDataTool\隐患点主表导入工具\隐患点主表导入工具\obj\Debug\隐患点主表导入工具.csprojResolveAssemblyReference.cache
-E:\loadDataTool\隐患点主表导入工具\隐患点主表导入工具\obj\Debug\隐患点主表导入工具.Form1.resources
 E:\loadDataTool\隐患点主表导入工具\隐患点主表导入工具\obj\Debug\隐患点主表导入工具.Properties.Resources.resources
 E:\loadDataTool\隐患点主表导入工具\隐患点主表导入工具\obj\Debug\隐患点主表导入工具.csproj.GenerateResource.Cache
 G:\WORK FILES\loadDataTool\隐患点主表导入工具\隐患点主表导入工具\bin\Debug\隐患点主表导入工具.exe.config
@@ -106,3 +105,4 @@ C:\Users\lixiong1\Desktop\loadDataTool\隐患点主表导入工具\隐患点主�
 C:\Users\lixiong1\Desktop\loadDataTool\隐患点主表导入工具\隐患点主表导入工具\obj\Debug\隐患点主表导入工具.Properties.Resources.resources
 C:\Users\lixiong1\Desktop\loadDataTool\隐患点主表导入工具\隐患点主表导入工具\obj\Debug\隐患点主表导入工具.Tools.resources
 C:\Users\lixiong1\Desktop\loadDataTool\隐患点主表导入工具\隐患点主表导入工具\obj\Debug\隐患点主表导入工具.csproj.GenerateResource.Cache
+E:\loadDataTool\隐患点主表导入工具\隐患点主表导入工具\obj\Debug\隐患点主表导入工具.Tools.resources

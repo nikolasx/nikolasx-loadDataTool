@@ -67,8 +67,9 @@
     <Compile Include="WebAPI\GeoDisaster\PreventionPlanningService.cs" />
     <Compile Include="WebAPI\GeoDisaster\RelocationService.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="packets\" />
+    <Content Include="packets\R2.Disaster.CoreEntities.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
